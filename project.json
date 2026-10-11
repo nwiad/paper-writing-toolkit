@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "project_name": "[PROJECT_NAME]",
+  "project_root": ".",
+  "research_type": "[RESEARCH_TYPE]",
+  "method_name": "[METHOD]",
+  "latex_method_macro": "\\methodname",
+  "manuscript_language": "en",
+  "communication_language": "zh",
+  "target_venue": null,
+  "paper_type": null,
+  "draft_body_page_budget": null,
+  "abstract_word_budget": null,
+  "manuscript": {
+    "format": null,
+    "entrypoint": null,
+    "template_path": null,
+    "template_source_url": null,
+    "requirements_url": null,
+    "build_command": null,
+    "expected_output": null
+  },
+  "input_paths": {
+    "code_repo_root": null,
+    "data_root": null,
+    "reference_root": null
+  },
+  "output_paths": {
+    "paper": "paper",
+    "review": "review",
+    "build": "build"
+  },
+  "scope": {
+    "external_sources_read_only": true,
+    "run_new_experiments": false,
+    "recalculate_results": false
+  }
+}
